@@ -16,8 +16,8 @@
 		3915189015C05D47000FC7D1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3915188F15C05D47000FC7D1 /* SenTestingKit.framework */; };
 		3915189115C05D47000FC7D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3915187715C05D47000FC7D1 /* UIKit.framework */; };
 		3915189215C05D47000FC7D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3915187915C05D47000FC7D1 /* Foundation.framework */; };
-		3915189A15C05D47000FC7D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3915189815C05D47000FC7D1 /* InfoPlist.strings */; };
-		3915189D15C05D47000FC7D1 /* Jul26Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915189C15C05D47000FC7D1 /* Jul26Tests.m */; };
+		391518A915C05E5A000FC7D1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 391518A815C05E5A000FC7D1 /* Model.m */; };
+		391518AC15C05E65000FC7D1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391518AB15C05E65000FC7D1 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +35,18 @@
 		3915187715C05D47000FC7D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3915187915C05D47000FC7D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3915187B15C05D47000FC7D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3915187F15C05D47000FC7D1 /* Jul26-Info.plist */ = {isa = PBXFileReference; path = "Jul26-Info.plist"; sourceTree = "<group>"; };
+		3915187F15C05D47000FC7D1 /* Jul26-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jul26-Info.plist"; sourceTree = "<group>"; };
 		3915188115C05D47000FC7D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3915188315C05D47000FC7D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3915188515C05D47000FC7D1 /* Jul26-Prefix.pch */ = {isa = PBXFileReference; path = "Jul26-Prefix.pch"; sourceTree = "<group>"; };
-		3915188615C05D47000FC7D1 /* Jul26AppDelegate.h */ = {isa = PBXFileReference; path = Jul26AppDelegate.h; sourceTree = "<group>"; };
+		3915188515C05D47000FC7D1 /* Jul26-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul26-Prefix.pch"; sourceTree = "<group>"; };
+		3915188615C05D47000FC7D1 /* Jul26AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul26AppDelegate.h; sourceTree = "<group>"; };
 		3915188715C05D47000FC7D1 /* Jul26AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul26AppDelegate.m; sourceTree = "<group>"; };
 		3915188E15C05D47000FC7D1 /* Jul26Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jul26Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3915188F15C05D47000FC7D1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3915189715C05D47000FC7D1 /* Jul26Tests-Info.plist */ = {isa = PBXFileReference; path = "Jul26Tests-Info.plist"; sourceTree = "<group>"; };
-		3915189915C05D47000FC7D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3915189B15C05D47000FC7D1 /* Jul26Tests.h */ = {isa = PBXFileReference; path = Jul26Tests.h; sourceTree = "<group>"; };
-		3915189C15C05D47000FC7D1 /* Jul26Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul26Tests.m; sourceTree = "<group>"; };
+		391518A715C05E51000FC7D1 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		391518A815C05E5A000FC7D1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		391518AA15C05E60000FC7D1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		391518AB15C05E65000FC7D1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				3915187D15C05D47000FC7D1 /* Jul26 */,
-				3915189515C05D47000FC7D1 /* Jul26Tests */,
 				3915187615C05D47000FC7D1 /* Frameworks */,
 				3915187415C05D47000FC7D1 /* Products */,
 			);
@@ -108,6 +107,10 @@
 			children = (
 				3915188615C05D47000FC7D1 /* Jul26AppDelegate.h */,
 				3915188715C05D47000FC7D1 /* Jul26AppDelegate.m */,
+				391518A715C05E51000FC7D1 /* Model.h */,
+				391518A815C05E5A000FC7D1 /* Model.m */,
+				391518AB15C05E65000FC7D1 /* TableViewController.m */,
+				391518AA15C05E60000FC7D1 /* TableViewController.h */,
 				3915187E15C05D47000FC7D1 /* Supporting Files */,
 			);
 			path = Jul26;
@@ -120,25 +123,6 @@
 				3915188015C05D47000FC7D1 /* InfoPlist.strings */,
 				3915188315C05D47000FC7D1 /* main.m */,
 				3915188515C05D47000FC7D1 /* Jul26-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3915189515C05D47000FC7D1 /* Jul26Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3915189B15C05D47000FC7D1 /* Jul26Tests.h */,
-				3915189C15C05D47000FC7D1 /* Jul26Tests.m */,
-				3915189615C05D47000FC7D1 /* Supporting Files */,
-			);
-			path = Jul26Tests;
-			sourceTree = "<group>";
-		};
-		3915189615C05D47000FC7D1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3915189715C05D47000FC7D1 /* Jul26Tests-Info.plist */,
-				3915189815C05D47000FC7D1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -221,7 +205,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3915189A15C05D47000FC7D1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +233,8 @@
 			files = (
 				3915188415C05D47000FC7D1 /* main.m in Sources */,
 				3915188815C05D47000FC7D1 /* Jul26AppDelegate.m in Sources */,
+				391518A915C05E5A000FC7D1 /* Model.m in Sources */,
+				391518AC15C05E65000FC7D1 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3915189D15C05D47000FC7D1 /* Jul26Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +260,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				3915188115C05D47000FC7D1 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3915189815C05D47000FC7D1 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3915189915C05D47000FC7D1 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
